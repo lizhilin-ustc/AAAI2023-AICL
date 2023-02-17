@@ -6,10 +6,15 @@ Weakly-supervised temporal action localization (WTAL) aims to detect action inst
 
 ## Preparation
 CUDA Version: 11.7
+
 Pytorch-gpu: 1.9.0
+
 Numpy: 1.23.1 
+
 Python: 3.9.7
+
 GPU: NVIDIA 1080Ti
+
 Dataset: Download the THUMOS-14 dataset (http://crcv.ucf.edu/THUMOS14/download.html) to `DATA_PATH`
 
 ## Training
