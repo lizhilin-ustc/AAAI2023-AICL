@@ -101,7 +101,6 @@ class AICL(nn.Module):
         actionness_act = actionness1 * select_idx_act
 
         select_idx_bg = actionness1.new_tensor(np.where(x == 0, 1, 0))
-        # print()
 
         actionness_rev = torch.max(actionness1, dim=1, keepdim=True)[0] - actionness1
         actionness_bg = actionness_rev * select_idx_bg
@@ -116,8 +115,6 @@ class AICL(nn.Module):
 
         x = aness_bin1 + aness_bin2
         idx_region_inner = actionness1.new_tensor(np.where(x == 1, 1, 0))
-        # print(torch.sum(idx_region_inner, dim=-1))
-        # print()
         aness_region_inner = actionness1 * idx_region_inner
         hard_act = self.select_topk_embeddings(aness_region_inner, embeddings, k_hard)
 
