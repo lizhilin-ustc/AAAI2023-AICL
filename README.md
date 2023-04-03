@@ -19,7 +19,7 @@ Dataset: Download the two-stream I3D features for THUMOS'14 to "DATA_PATH". You 
 
 Update the data_path in "./scripts/train.sh" and "./scripts/inference.sh".
 
-Our trained model parameters are placed in "./outputs/AICL", and you can set "--exp_name = AICL" in the Inference.sh。
+You can download our trained model from [here(Extract code:AICL)] (https://pan.baidu.com/s/1L7ayrAEQ8frjnYY6VDd3tw).
 
 ## Training
 ```
