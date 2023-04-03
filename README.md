@@ -15,17 +15,20 @@ Python: 3.9.7
 
 GPU: NVIDIA 1080Ti
 
-Dataset: Download the THUMOS-14 dataset (http://crcv.ucf.edu/THUMOS14/download.html) to `DATA_PATH`
+Dataset: Download the two-stream I3D features for THUMOS'14 to `DATA_PATH`. You can download them from [Google Drive](https://drive.google.com/file/d/1paAv3FsqHtNsDO6M78mj7J3WqVf_CgSG/view?usp=sharing).
+
+Update the data_path in train.sh and inference.sh.
 
 ## Training
 ```
-    bash ./scripts/train.sh DATA_PATH
+    bash ./scripts/train.sh
 ```
 
 ## Inference
 ```
-    bash ./scripts/inference.sh DATA_PATH
+    bash ./scripts/inference.sh
 ```
 
 ## Acknowledgement
-This repository was based on the ASL repo found (https://github.com/layer6ai-labs/ASL).
+This repository was based on the [ASL](https://github.com/layer6ai-labs/ASL) repo found.
+The download link to the dataset is provided by [CoLA](https://github.com/zhang-can/CoLA).
