@@ -15,11 +15,11 @@ Python: 3.9.7
 
 GPU: NVIDIA 1080Ti
 
-Dataset: Download the two-stream I3D features for THUMOS'14 to DATA_PATH. You can download them from [Google Drive](https://drive.google.com/file/d/1paAv3FsqHtNsDO6M78mj7J3WqVf_CgSG/view?usp=sharing).
+Dataset: Download the two-stream I3D features for THUMOS'14 to "DATA_PATH". You can download them from [Google Drive](https://drive.google.com/file/d/1paAv3FsqHtNsDO6M78mj7J3WqVf_CgSG/view?usp=sharing).
 
-Update the data_path in train.sh and inference.sh.
+Update the data_path in "./scripts/train.sh" and "./scripts/inference.sh".
 
-Our trained model parameters are placed in ./outputs/AICL, and you can set "--exp_name = AICL" in the Inference.sh。
+Our trained model parameters are placed in "./outputs/AICL", and you can set "--exp_name = AICL" in the Inference.sh。
 
 ## Training
 ```
