@@ -30,6 +30,9 @@ You can download our trained model from [here(Extract code:AICL)](https://pan.ba
 ```
     bash ./scripts/inference.sh
 ```
+## Implementation Details
+Implementation Details are shown in supplement.
+
 
 ## Acknowledgement
 This repository was based on the [ASL](https://github.com/layer6ai-labs/ASL) repo found.
