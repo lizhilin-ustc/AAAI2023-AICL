@@ -46,6 +46,7 @@ Implementation details are shown in the supplementary material(supplement.pdf).
 
 ## Acknowledgement
 This repository was based on the [ASL](https://github.com/layer6ai-labs/ASL) repo found.
+The download link to the dataset is provided by [CoLA](https://github.com/zhang-can/CoLA).
 
 ## Citation
 If this work is helpful for your research, please consider citing our works.
@@ -60,6 +61,3 @@ If this work is helpful for your research, please consider citing our works.
   year={2023}
 }
 ```
-
-
-The download link to the dataset is provided by [CoLA](https://github.com/zhang-can/CoLA).
