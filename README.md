@@ -37,4 +37,19 @@ Implementation details are shown in the supplementary material(supplement.pdf).
 ## Acknowledgement
 This repository was based on the [ASL](https://github.com/layer6ai-labs/ASL) repo found.
 
+## Citation
+If this work is helpful for your research, please consider citing our works.
+```
+@inproceedings{li2023actionness,
+  title={Actionness inconsistency-guided contrastive learning for weakly-supervised temporal action localization},
+  author={Li, Zhilin and Wang, Zilei and Liu, Qinying},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={2},
+  pages={1513--1521},
+  year={2023}
+}
+```
+
+
 The download link to the dataset is provided by [CoLA](https://github.com/zhang-can/CoLA).
