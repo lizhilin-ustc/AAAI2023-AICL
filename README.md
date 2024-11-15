@@ -4,6 +4,16 @@ The official implementation of "Actionness Inconsistency-guided Contrastive Lear
 ## Abstract
 Weakly-supervised temporal action localization (WTAL) aims to detect action instances given only video-level labels. To address the challenge, recent methods commonly employ a two-branch framework, consisting of a class-aware branch and a class-agnostic branch. In principle, the two branches are supposed to produce the same actionness activation. However, we observe that there are actually many inconsistent activation regions. These inconsistent regions usually contain some challenging segments whose semantic information (action or background) is ambiguous. In this work, we propose a novel Actionness Inconsistency-guided Contrastive Learning (AICL) method which utilizes the consistent segments to boost the representation learning of the inconsistent segments. Specifically, we first define the consistent and inconsistent segments by comparing the predictions of two branches and then construct positive and negative pairs between consistent segments and inconsistent segments for contrastive learning. In addition, to avoid the trivial case where there is no consistent sample, we introduce an action consistency constraint to control the difference between the two branches. We conduct extensive experiments on THUMOS14, ActivityNet v1.2, and ActivityNet v1.3 datasets, and the results show the effectiveness of AICL with state-of-the-art performance.
 
+## Results
+|  Dataset         | 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6 | 0.7| AVG(0.1:0.5) | AVG(0.1:0.7) |
+| -----------      | --- | --- | ----| ----| ----| ---| -- | ---- | -----|
+| THUMOS14         | 73.1| 67.8| 58.2| 48.7| 36.9|25.3| 14.9| 46.4|
+
+|  Dataset         | 0.5 | 0.75 | 0.95 | AVG(0.5:0.95) |
+| -----------      | --- | --- | ----| ----|
+| ActivityNet 1.2  | 49.6| 29.1| 5.9| 29.9|
+| ActivityNet 1.3  | 44.2| 27.4| 5.8| 27.6|
+
 ## Preparation
 CUDA Version: 11.7
 
