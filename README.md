@@ -2,7 +2,9 @@
 The official implementation of "Actionness Inconsistency-guided Contrastive Learning for Weakly-supervised Temporal Action Localization"(AAAI2023)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/actionness-inconsistency-guided-contrastive/weakly-supervised-action-localization-on-2)](https://paperswithcode.com/sota/weakly-supervised-action-localization-on-2?p=actionness-inconsistency-guided-contrastive)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/actionness-inconsistency-guided-contrastive/weakly-supervised-action-localization-on-1)](https://paperswithcode.com/sota/weakly-supervised-action-localization-on-1?p=actionness-inconsistency-guided-contrastive)
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/actionness-inconsistency-guided-contrastive/weakly-supervised-action-localization-on)](https://paperswithcode.com/sota/weakly-supervised-action-localization-on?p=actionness-inconsistency-guided-contrastive)
 
 ## Abstract
